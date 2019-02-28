@@ -17,6 +17,7 @@ function currentLine (line) {
   }
   const lineAsFollows = [];
   for (let i=0, l=line.length; i<l; i++) {
-    
+    lineAsFollows.push(`${line.length[i]}. ${line[i]},);
+    return 
   }
 }
