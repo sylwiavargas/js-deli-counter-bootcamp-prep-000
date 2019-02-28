@@ -4,7 +4,7 @@ function takeANumber (line, names) {
 }
 
 function nowServing (katzDeliLine) {
-  if (!katzDeliLine) {
-    return (`)
+  if (!katzDeliLine.length) {
+    return ''
   }
 }
