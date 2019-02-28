@@ -17,7 +17,7 @@ function currentLine (line) {
   }
   const lineAsFollows = [];
   for (let i=0, l=line.length; i<l; i++) {
-    lineAsFollows.push(`${i+1}. ${line[i]},);
+    lineAsFollows.push(`${i+1}. ${line[i]}`);
     }
     return "The line is currently:" + lineAsFollows;
 }
