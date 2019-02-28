@@ -10,3 +10,9 @@ function nowServing (katzDeliLine) {
   var firstCustomer = katzDeliLine.shift();
   return ('Currently serving ' + firstCustomer + '.');
 }
+
+function currentLine (line) {
+  if (!line.length) {
+    return `
+  }
+}
